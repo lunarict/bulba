@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Гламурный картофель без мундира">
+<defs>
+<radialGradient id="bg"><stop stop-color="#7e2d77"/><stop offset=".6" stop-color="#321833"/><stop offset="1" stop-color="#110e1d"/></radialGradient>
+<radialGradient id="tuber" cx=".3" cy=".25" r=".9"><stop stop-color="#ffefd0"/><stop offset=".58" stop-color="#e6c788"/><stop offset="1" stop-color="#b58a4d"/></radialGradient>
+<linearGradient id="peel"><stop stop-color="#ba8645"/><stop offset=".5" stop-color="#774523"/><stop offset="1" stop-color="#e0b477"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="shadow"><feDropShadow dx="4" dy="18" stdDeviation="15" flood-color="#080309" flood-opacity=".8"/></filter>
+</defs>
+<rect width="720" height="540" rx="35" fill="url(#bg)"/>
+<ellipse cx="375" cy="90" rx="255" ry="98" fill="#e387e9" opacity=".17" filter="url(#blur)"/>
+<path d="M94 0 L285 380 L460 0" fill="#f0b0fc" opacity=".055"/><path d="M620 0 L315 380 L490 0" fill="#fff0cb" opacity=".055"/>
+<ellipse cx="367" cy="460" rx="245" ry="34" fill="#e58ad4" opacity=".28" filter="url(#blur)"/>
+<g filter="url(#shadow)" transform="rotate(-11 360 290)">
+<path d="M267 127 C184 169 189 294 235 373 C270 453 413 449 467 397 C550 331 508 203 441 160 C397 101 333 103 267 127Z" fill="url(#tuber)" stroke="#dbb47a" stroke-width="5"/>
+<path d="M270 149 Q222 177 237 227" fill="none" stroke="#fff9dc" stroke-width="16" opacity=".8" stroke-linecap="round"/>
+<path d="M267 151 C219 176 211 258 244 339 C212 357 191 396 202 423 C214 454 257 456 295 434" fill="none" stroke="url(#peel)" stroke-width="33" stroke-linecap="round"/>
+<path d="M244 337 C216 314 211 283 201 264 C180 225 158 219 140 240 C106 286 143 333 178 351" fill="none" stroke="url(#peel)" stroke-width="21" stroke-linecap="round"/>
+<path d="M316 231 Q340 222 360 230 M411 228 q20 -6 33 0" stroke="#845a44" stroke-width="8" stroke-linecap="round" fill="none"/><path d="M359 277 q23 22 43 -3" stroke="#946447" stroke-width="7" stroke-linecap="round" fill="none"/>
+<ellipse cx="298" cy="275" rx="16" ry="9" fill="#d99b91" opacity=".65"/><ellipse cx="449" cy="270" rx="16" ry="9" fill="#d99b91" opacity=".65"/>
+</g>
+<g fill="#fdeac3" opacity=".9"><path d="M140 100 l6 18 18 6 -18 5 -6 18 -5 -18 -18 -5 18 -6Z"/><path d="M582 194 l7 21 19 6 -19 7 -7 20 -6 -20 -19 -7 19 -6Z"/><circle cx="551" cy="98" r="5"/><circle cx="120" cy="370" r="4"/></g>
+</svg>
